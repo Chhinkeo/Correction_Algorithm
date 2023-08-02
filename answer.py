@@ -32,3 +32,23 @@
 #         result=result+1
 #     i=i+1
 # print(result)
+
+
+# S8
+# EX1
+# number = int(input("input here: "))
+# result = ''
+# for i in range(number):
+#     result += str(number-i) + " "
+# print(result)
+
+
+# EX2
+# text = input()
+# res = "No"
+# i = 0
+# while i < len(text):
+#     if (text[i]=="R" or text[i]=="r") and text[i+1]=="a" and text[i+2]=="d" and text[i+3]=="y":
+#         res = "yes"
+#     i += 1
+# print(res)
