@@ -78,9 +78,9 @@
 # print(result)
 
 
+
 # EX2
 # text = input()
-# res = "WRONG"
 # count = 0
 # for i in range(len(text)):
 #     count += 1
@@ -91,6 +91,16 @@
 #         else:
 #             res = "WORNG"
 # print(res)
+# other way
+# t = input()
+# for i in range(len(t)-2):
+#     if t[i]=="a" and t[i+1]=="b" and t[i+2]=="c":
+#         r= "ok"
+#     else:
+#         r = "wrong"
+# print(r)
+
+
 
 
 # EX3
@@ -112,6 +122,7 @@
 #     print("WRONG")
 # else:
 #     print(result)
+#////////////////////////////////////////////////////////////////////////////////////////////
 
 
 # S10
@@ -133,14 +144,73 @@
 # is_finished_six = True
 # is_have_number_six = False
 # for i in range(len(text)):
-#     if text[i] == "6":
-#         is_have_number_six = True
-# for i in range(len(text)):
-#     if is_have_number_six:
+#     if not is_have_number_six:
 #         if text[i] != "6" and is_finished_six:
 #             res *= int(text[i])
 #         else:
 #             is_finished_six = False
-#     else:
-#         res = 0
 # print(res)
+
+
+#EX3
+# n=int(input())
+# res=0
+# for i in range(n):
+#     res = 1+i
+#     print(res, end=" ")
+#/////////////////////////////////////////////////////////////////////////
+
+
+
+# S11
+# EX1
+#srul te tver klun eng
+
+
+# Ex2
+# text = input()
+# result = True
+# for i in range(len(text)):
+#     if text[i]!="A":
+#         result=False
+# print(result)
+
+
+# EX3
+# text = ""
+# result = ""
+# while text != "end":
+#     text = input()
+#     if text != "end" and int(text)%2 == 0:
+#         result +=text+":"
+# print(result[:-1])
+
+
+# EX4
+# text = input()
+# result = -1
+# for index in range(len(text)-1):
+#     letter = text[index]
+#     if letter == "K" and text[index + 1] == "K":
+#         result = index
+# print(result) 
+
+
+# EX5
+# text = input()
+# isfound = False
+# result1 = ""
+# result2 = ""
+# result = 0
+# for i in range(len(text)):
+#     if text[i] != ";" and not isfound :
+#         result1 += text[i]
+#     else:
+#         isfound = True
+#         if isfound and text[i] != ";":
+#             result2 += text[i]
+# if isfound and True:
+#     result += int(result1) + int(result2)
+#     print(result)
+# else:
+#     print("wrong format")
