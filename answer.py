@@ -204,14 +204,10 @@
 
 
 # EX5
-# nb = input()
-# sum = 0
-# isFound = False
-# if len(nb)==5 and nb[2]==";":
-#     sum += int(nb[ :-3]) + int(nb[3: ])
-#     isFound = True
-# if isFound == True :
-#     print(sum)
-# else:
-#     print("WRONG FORMART")
-
+nb = input()
+sum = 0
+if len(nb)==5 and nb[2]==";":
+    sum += int(nb[ :2]) + int(nb[3: ])
+    print(sum)
+else:
+    print("WRONG FORMART")
