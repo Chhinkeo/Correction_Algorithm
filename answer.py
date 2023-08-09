@@ -105,7 +105,7 @@
 
 # EX3
 # text = input()
-# is_wrong_display =False
+# isWrong =False
 # result =''
 # for i in range(len(text)):
 #     if text[i] =='x':
@@ -117,8 +117,8 @@
 #     elif text[i] ==']' and text[i-1] =='y':
 #         result ='OK'
 #     else:
-#         is_wrong_display = True
-# if is_wrong_display:
+#         isWrong = True
+# if isWrong:
 #     print("WRONG")
 # else:
 #     print(result)
@@ -165,6 +165,13 @@
 # S11
 # EX1
 #srul te tver klun eng
+# n1 = int(input())
+# n2 = int(input())
+# n =-1
+# if n2 > n1 :
+#     n = n1 + n2
+# print(n) 
+
 
 
 # Ex2
@@ -197,20 +204,14 @@
 
 
 # EX5
-# text = input()
-# isfound = False
-# result1 = ""
-# result2 = ""
-# result = 0
-# for i in range(len(text)):
-#     if text[i] != ";" and not isfound :
-#         result1 += text[i]
-#     else:
-#         isfound = True
-#         if isfound and text[i] != ";":
-#             result2 += text[i]
-# if isfound and True:
-#     result += int(result1) + int(result2)
-#     print(result)
+# nb = input()
+# sum = 0
+# isFound = False
+# if len(nb)==5 and nb[2]==";":
+#     sum += int(nb[ :-3]) + int(nb[3: ])
+#     isFound = True
+# if isFound == True :
+#     print(sum)
 # else:
-#     print("wrong format")
+#     print("WRONG FORMART")
+
